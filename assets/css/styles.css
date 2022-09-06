@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Poppins !important;
+  color: #2f2f2f;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(0, 153, 169);
+  padding: 22px 0px 22px 0px;
+}
+
+img.header-img {
+  width: 80px;
+}
+
+.heading-1-vid-cont {
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.vid-cont {
+  margin-top: 30px;
+}
+
+.heading-2-cont {
+  padding: 20px 0px 5px;
+  margin: 20px 0px 0px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.heading-2-bold {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: bolder;
+}
+
+.row.form-cont {
+  padding-bottom: 80px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border-color: rgb(0, 153, 169);
+  border-width: 5px;
+  border-style: solid;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  overflow: hidden;
+}
+
+.footer-cont {
+  max-width: 100%;
+  line-height: 1.4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 10px 0px 0px;
+  outline: none;
+}
+
+.footer-text {
+  font-size: 17px;
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.footer-link {
+  color: rgb(255, 237, 0);
+  text-decoration: none;
+}
+
+.footer-link:hover, a:focus {
+  color: rgb(255, 237, 0);
+  text-decoration: underline;
+}
+
+.desk {
+  display: none;
+}
+.mob {
+  display: block;
+}
+
+.footer-link-mob {
+  padding: 10px;
+}
+
+.footer-hr {
+  min-height: 1px;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-color: rgba(229, 225, 213, 0.31);
+  width: 75%;
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-top: 30px;
+}
+
+/*
+####################################################
+MEDIA  QUERIES BREAKPOINTS
+####################################################
+*/
+ 
+/* Small devices (576px and up) */
+@media (min-width: 576px) {  
+  h1, h2, .heading-2-bold {
+    font-size: 1.2rem;
+  }
+}
+ 
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {  
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2, .heading-2-bold {
+    font-size: 1.7rem;
+  }
+}
+ 
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+  .heading-2-cont {
+    padding: 20px 95px 5px;
+    margin: 20px 0px 0px;
+  }
+  .desk {
+    display: block;
+  }
+  .mob {
+    display: none;
+  }
+  img.header-img {
+    width: 135px;
+  }
+  .footer-link-mob {
+    padding: 0;
+  }
+  .footer-hr {
+    width: 65%;
+  }
+}
